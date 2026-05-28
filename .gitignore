@@ -1,0 +1,60 @@
+# Environment variables - 絶対に commit しない
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Vercel
+.vercel/
+
+# Turborepo
+.turbo/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+!.vscode/settings.json.example
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Local data
+*.sql.backup
+*.dump
+local-data/
+tmp/
